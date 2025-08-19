@@ -1,0 +1,173 @@
+/* =========================== */
+/* Estilos base de Ionic       */
+/* =========================== */
+@import "@ionic/react/css/core.css";
+@import "@ionic/react/css/normalize.css";
+@import "@ionic/react/css/structure.css";
+@import "@ionic/react/css/typography.css";
+@import "@ionic/react/css/padding.css";
+@import "@ionic/react/css/float-elements.css";
+@import "@ionic/react/css/text-alignment.css";
+@import "@ionic/react/css/text-transformation.css";
+@import "@ionic/react/css/flex-utils.css";
+@import "@ionic/react/css/display.css";
+
+/* =========================== */
+/* Fondo de la página          */
+/* =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+/* Aplicar fuente a todo el body */
+body {
+  font-family: 'Baloo 2', cursive;
+  background-color: #fffbee;
+  margin: 0;
+  padding: 0;
+}
+
+.background-bee {
+  background-color: #fffbee;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+.fondo {
+  background: linear-gradient(180deg, #fff8e1 0%, #fffde7 100%);
+  min-height: 100vh;
+}
+
+/* =========================== */
+/* Título del header           */
+/* =========================== */
+.titulo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffb300; /* amarillo abeja */
+}
+
+/* =========================== */
+/* Contenedor del formulario   */
+/* =========================== */
+.contenedor-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* =========================== */
+/* Tarjetas estilo abeja       */
+/* =========================== */
+.card-blur, .bee-card {
+  background: linear-gradient(135deg, #fff176, #ffd54f);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.bee-card ion-card-title,
+.bee-card ion-card-subtitle {
+  color: #4b3832; /* marrón abeja */
+}
+
+/* =========================== */
+/* Inputs y Textarea            */
+/* =========================== */
+.ion-item {
+  margin-bottom: 12px;
+  --background: #fff9c4;
+  --border-color: #ffd54f;
+  --border-style: solid;
+  --border-width: 1px;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.ion-label {
+  font-weight: 600;
+  color: #4b3832;
+}
+
+.ion-input, .ion-textarea, .ion-select {
+  --background: #fff9c4;
+  border-radius: 8px;
+  padding: 6px 8px;
+  color: #4b3832;
+}
+
+/* =========================== */
+/* Botones                     */
+/* =========================== */
+.ion-button {
+  --background: #ffb300;
+  --color: #4b3832;
+  --border-radius: 12px;
+  font-weight: bold;
+}
+
+.ion-button:hover {
+  --background: #ffa000;
+}
+
+/* =========================== */
+/* Imagenes dentro del formulario */
+/* =========================== */
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* =========================== */
+/* Tipografía general          */
+/* =========================== */
+h1, p {
+  font-family: 'Arial', sans-serif;
+  color: #4b3832;
+}
+.toolbar-abeja {
+  --background: #ffb300; /* amarillo abeja */
+}
+/* Ajustes para el formulario de avistamiento */
+.contenedor-form {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-blur {
+  background: rgba(255, 239, 184, 0.95); /* amarillo suave */
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+ion-input, ion-textarea, ion-select {
+  --background: #fff;
+  --border-radius: 8px;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  --color: #333;
+  border: 1px solid #f0c000;
+  margin-top: 8px;
+}
+
+.boton-enviar {
+  --background: #f2b705;
+  --color: #fff;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.imagen-avistamiento {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 8px;
+}
